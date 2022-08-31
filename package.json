@@ -1,0 +1,23 @@
+{
+  "name": "aplicacao-conversor-de-moedas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Roger-Melo/aplicacao-conversor-de-moedas.git",
+  "author": "Joao Fernandes <joaofergear003@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:mode": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod:mode": "node ./node_modules/webpack-cli/bin/cli.js"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}
